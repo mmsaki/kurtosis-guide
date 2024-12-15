@@ -1,4 +1,6 @@
-# Kurtosis guide
+# Kurtosis setup
+
+[Kutosis](https://docs.kurtosis.com/install) is a tool for testing ethereum clients by configuring local execution and consensus devnet environements
 
 - Dependencies
     - [Docker](https://docs.docker.com/get-started/)
