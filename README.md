@@ -41,6 +41,7 @@ kurtosis run --enclave my-testnet github.com/ethpandaops/ethereum-package
 Use a customized config
 
 ```bash
-kurtosis run --enclave my-testnet github.com/ethpandaops/ethereum-package --args-file network_params.yaml
+kurtosis run --enclave my-testnet github.com/ethpandaops/ethereum-package --args-file network_params.yaml --image-download always
 ```
 
+> NOTE: Create network_params.yaml from the [configuration setup guide](https://github.com/ethpandaops/ethereum-package/blob/main/README.md#configuration)
