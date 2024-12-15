@@ -1,16 +1,12 @@
 participants:
   - el_type: geth
-    cl_type: teku
+    cl_type: lighthouse
   - el_type: reth
     cl_type: lodestar
-  - el_type: ethereumjs
-    cl_type: lighthouse
 additional_services:
-  - tx_spammer
+  - assertoor
   - dora
-  - prometheus_grafana
   - blockscout
-  - assertor
-ethereum_metrics_exporter_enabled: true
-snooper_enabled: true
-keymanager_enabled: true
+mev_type: flashbots
+mev_params:
+  mev_relay_image: flashbots/mev-boost-relay:latest
