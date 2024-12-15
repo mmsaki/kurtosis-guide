@@ -28,3 +28,19 @@ source <(kurtosis completion zsh)
 compdef _kurtosis kurtosis
 ```
 
+## Run local Devnet
+
+Use the [Ethereum Package](https://github.com/ethpandaops/ethereum-package) for kurtosis
+
+```bash
+kurtosis run --enclave my-testnet github.com/ethpandaops/ethereum-package
+```
+
+## Customize Devnet
+
+Use a customized config
+
+```bash
+kurtosis run --enclave my-testnet github.com/ethpandaops/ethereum-package --args-file network_params.yaml
+```
+
