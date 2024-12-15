@@ -46,8 +46,12 @@ kurtosis run --enclave my-testnet github.com/ethpandaops/ethereum-package --args
 ```
 
 > [!TIP]
-> Create `custom.yaml` from the [configuration setup guide](https://github.com/ethpandaops/ethereum-package/blob/main/README.md#configuration)
-> See [example configs here](https://github.com/ethpandaops/ethereum-package/blob/main/.github/tests/)
+> ### Creating custom configuration
+> 
+> Create `custom.yaml` from examples:
+> - [Ethpandaops configs examples](https://github.com/ethpandaops/ethereum-package/blob/main/.github/tests/)
+> - [Documented configuration setup guide](https://github.com/ethpandaops/ethereum-package/blob/main/README.md#configuration)
+
 
 ## Kurtosis commands :shipit:
 
