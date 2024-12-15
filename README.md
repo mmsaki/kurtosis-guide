@@ -6,6 +6,7 @@
 
 ## Install
 
+> [!NOTE]
 > Skip this section if docker and kurtosis are already installed
 
 Check that docker is installed:
@@ -44,4 +45,6 @@ Use a customized config
 kurtosis run --enclave my-testnet github.com/ethpandaops/ethereum-package --args-file network_params.yaml --image-download always
 ```
 
-> NOTE: Create network_params.yaml from the [configuration setup guide](https://github.com/ethpandaops/ethereum-package/blob/main/README.md#configuration)
+> [!TIP]
+> Create network_params.yaml from the [configuration setup guide](https://github.com/ethpandaops/ethereum-package/blob/main/README.md#configuration)
+
