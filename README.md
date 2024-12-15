@@ -48,3 +48,61 @@ kurtosis run --enclave my-testnet github.com/ethpandaops/ethereum-package --args
 > [!TIP]
 > Create network_params.yaml from the [configuration setup guide](https://github.com/ethpandaops/ethereum-package/blob/main/README.md#configuration)
 
+## Kurtosis commands :shipit:
+
+Checking enclaves
+
+```sh
+kurtosis enclave ls
+```
+
+Get more details about an enclave
+
+```sh
+kurtosis enclave inspect my-testnet
+```
+
+Check some file
+
+```sh
+kurtosis files inspect my-testnet el_cl_genesis_data
+kurtosis files inspect my-testnet el_cl_genesis_data ./config.yaml
+```
+
+Enclave dump
+
+```sh
+kurtosis enclave dump my-testnet
+```
+
+Logs
+
+```sh
+kurtosis service logs -f my-testnet
+# checke additional services
+kurtosis service logs -f my-testnet dora
+```
+
+Removing enclace
+
+```sh
+# Stop kurtosis then remove enclave
+kurtosis enclave stop my-testnet
+kurtosis enclave rm my-testnet
+# or force remove
+kurtosis enclave rm -f my-testnet
+```
+
+Checking engine status
+
+```sh
+kurtosis engine status
+kurtosis engine restart
+```
+
+Cleanup everything, including enclaves
+
+```sh
+kurtosis clean -a
+```
+
